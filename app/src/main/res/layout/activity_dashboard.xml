@@ -5,11 +5,20 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Dashboard">
 
-    <ListView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lstDictionary"/>
+        android:textSize="30sp"
+        android:text="Add Text"
+        android:id="@+id/addText"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="View Text"
+        android:id="@+id/viewText"/>
+
 
 </LinearLayout>
